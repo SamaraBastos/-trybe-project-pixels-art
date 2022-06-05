@@ -1,50 +1,30 @@
 #black {
-    background-color: black;
+  background-color: black;
 }
 
 #brown {
-    background-color: rgb(165, 42, 42);
+  background-color: brown;
 }
 
 #yellow {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 #pink {
-    background-color: pink ;
+  background-color: pink;
 }
 
 .color {
-    width: 90px;
-    height: 90px;
-    border: black solid 1px;
-    display: inline-block;
+  width: 90px;
+  height: 90px;
+  border: black solid 1px;
+  display: inline-block;
 }
-
-/* .selected {
-    background-color: black;
-} */
 
 .pixel {
-    height: 40px;
-    width: 40px;
-    background-color: rgb(255, 255, 255);
-    display: inline-block;
-    border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid black;
 }
-
-/* #bloco1 {
-    border: 0px none rgb 0, 0, 0;  
-}
-#bloco2 {
-border: 0px none rgb 0, 0, 0; 
-}
-#bloco3 {
-    border: 0px none rgb 0, 0, 0; 
-}
-#bloco4 {
-    border: 0px none rgb 0, 0, 0; 
-  }
-#bloco5 {
-    border: 0px none rgb 0, 0, 0;  
-  } */
