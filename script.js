@@ -25,8 +25,28 @@ const clear1 = document.getElementById('clear-board');
 const clear2 = document.getElementsByClassName('pixel');
 
 function clik() {
-  for (let i = 0; i < clear2.length; i += 1) 
-  clear2[i].style.backgroundColor = 'white';
+  for (let i = 0; i < clear2.length; i += 1) {
+    clear2[i].style.backgroundColor = 'white';
+  }
 }
 
 clear1.addEventListener('click', clik);
+
+const valor = document.querySelector('#board-size');
+// const valor2 = document.querySelector('#generate-board');
+
+function alerta() {
+  if (valor === 0) {
+    alert('Board Inválido!');
+  }
+}
+alerta();
+
+function bonus() {
+  if (valor.value <= 5) {
+    valor.value = 5;
+  } else if (valor.value >= 50) {
+    valor.value = 50;
+  }
+}
+bonus();
